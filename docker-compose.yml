@@ -4,9 +4,7 @@ services:
   nextjs:
     ports:
       - 3000:3000
-    build:
-      context: packages/
-      dockerfile: Dockerfile
+    build: ./
     volumes:
       - ./:/usr/src/app
       - /usr/src/app/node_modules
