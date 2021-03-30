@@ -41,5 +41,8 @@
     "sweetalert2": "^10.14.0",
     "sweetalert2-react-content": "^3.2.2",
     "universal-cookie": "^4.0.4"
+  },
+  "devDependencies": {
+    "docker-compose": "^0.23.6"
   }
 }
