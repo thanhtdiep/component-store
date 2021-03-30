@@ -25,3 +25,6 @@ docker-compose up --build
 ```
 
 The docker-compose.yml file is setup to build the backend container locally and pull the frontend from the dockerhub. Be sure to include the build command or it won't work.
+
+## Note
+Use your own MongoDB Atlas URI and Google Sheet keys in .env to run the app.
